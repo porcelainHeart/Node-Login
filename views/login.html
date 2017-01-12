@@ -1,0 +1,29 @@
+<div class="col-sm-6 col-sm-offset-3">
+    <h1><span class="fa fa-sign-in"></span>用户登录</h1>
+
+    {{#if message}}
+    <div class="alert alert-danger">{{message}}</div>
+    {{/if}}
+
+    <form action="/login" method="post">
+        <div class="form-group">
+            <label>用户名</label>
+            <input type="text" class="form-control" name="username">
+        </div>
+        <div class="form-group">
+            <label>密码</label>
+            <input type="password" class="form-control" name="password">
+        </div>
+        <div class="form-group">
+            <label>记住登录信息</label>
+            <input type="checkbox" class="form-control" name="remember" value="yes" style="width:30px">
+        </div>
+
+        <button type="submit" class="btn btn-warning btn-lg">登录</button>
+    </form>
+
+    <hr>
+
+    <p>还没有账号？ 点击这里<a href="/signup">注册</a></p>
+    <p>返回<a href="/">首页</a></p>
+</div>
