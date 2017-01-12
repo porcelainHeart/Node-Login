@@ -1,6 +1,7 @@
 # Node-Login
 Login Demo , Nodejs+Express+Hbs+MySQL
-
+一个Node上的简易登录注册功能，采用bcrypt进行加密处理
+有问题可以发至我的email: cixinguisu@gmail.com
 ###使用方法如下
 - clone本项目到本地: git clone git@github.com:porcelainHeart/Node-Login.git
 
