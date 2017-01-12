@@ -7,7 +7,7 @@ Login Demo , Nodejs+Express+Hbs+MySQL
 
 
 
-#＃使用方法如下
+## 使用方法如下
 - clone本项目到本地: git clone git@github.com:porcelainHeart/Node-Login.git
 
               或者: git clone https://github.com/porcelainHeart/Node-Login.git
@@ -24,4 +24,4 @@ Login Demo , Nodejs+Express+Hbs+MySQL
 
 - 然后去浏览器访问　http://localhost:8080/
 
-＃＃祝你好运．
+## 祝你好运．
